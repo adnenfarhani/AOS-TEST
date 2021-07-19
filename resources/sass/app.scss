@@ -1,0 +1,61 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+
+.post {
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.posts .post {
+    font-size: 1rem;
+
+
+}
+
+.comment {
+    font-size: 0.9rem !important;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.comment .author-info {
+    font-size: 0.85rem !important;
+}
+
+
+
+.author-info {
+    font-size: 1rem;
+}
+
+.posts .post:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.posts .post:active {
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 1px #3490dc56;
+    transform: scale(0.985);
+    transition: all 0.1s ease-in;
+}
+
+ a {
+    text-decoration: none ;
+    color: inherit;
+}
+ a:active ,  a:hover {
+    text-decoration: none ;
+}
